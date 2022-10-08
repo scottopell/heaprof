@@ -1,4 +1,4 @@
-module heaprof
+module github.com/scottopell/heaprof
 
 go 1.18
 

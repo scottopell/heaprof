@@ -1,9 +1,6 @@
 import {useState} from 'react';
-import logo from './assets/images/logo-universal.png';
 import './App.css';
 import {SelectFile} from "../wailsjs/go/main/App";
-
-const { LogInfo, EventsOn } = window.runtime;
 
 function App() {
     const [profileId, setProfileId] = useState('');
